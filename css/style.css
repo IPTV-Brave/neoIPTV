@@ -1,0 +1,463 @@
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Readex Pro', sans-serif;
+}
+nav {
+    background-color: white;
+    transition: .5 ease;
+}
+nav button svg{
+    color: black;
+}
+nav .navbar-brand{
+    color: #d2161e;
+    font-size: 24px;
+    font-weight: 700;
+}
+nav .nav-link{
+    color: black;
+    font-size: 20px;
+}
+nav .navbar-brand:hover,
+nav .nav-link:hover {
+    color:black ;
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
+.seller{
+    border: none;
+    background-color: #d2161e;
+    color: white;
+    padding:10px 5px;
+    border-radius: 10px;
+    min-width: 108px;
+}
+/* start home  */
+
+.home{
+    padding-block: 10px;
+    background-color: #f2f1e5;
+    margin-bottom: 30px;
+}
+.home ul li{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.home button{
+    color: white;
+    background-color: #d2161e;
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 500;
+}
+.home .contact-btn{
+    background-color: #52b035;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+/* end home  */
+
+/* start prices  */
+.prices{
+    background-color: #f2f1e5;
+}
+.prices .pricing-plans{
+    color: #d2161e;
+}
+.prices .head{
+    padding-block: 15px;
+    background-color: #d2161e;
+    color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-size: 24px;
+}
+#prime{
+    background-color: #d2161e;
+    color: white;
+    border-bottom: 1px solid white;
+    position: relative;
+}
+#prime::after{
+    content: "Most Selling";
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    color: red;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #d2161e;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#prime-list ul li{
+    border-bottom: 1px solid white;
+}
+#prime-btn{
+    background-color: white;
+    color: #d2161e;
+}
+.prices .box{
+    border-radius: 12px;
+    border: 1px solid #667280;
+    margin-bottom: 35px;
+    background-color: white;
+}
+.prices .price span{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.prices ul li{
+    margin-bottom: 10px;
+    padding-block: 5px;
+    border-bottom: 1px solid #667280;
+    width: 80%;
+    margin: auto;
+    font-size: 14px;
+}
+.prices button{
+    color: white;
+    background-color: #d2161e;
+    border:none;
+    padding:10px 20px;
+    border-radius: 12px;
+}
+/* end prices  */
+
+/* start sale  */
+
+.text{
+    padding-block: 40px;
+    background-color: #f2f1e5;
+}
+.text h1{
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.text p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.text h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+/* end text  */
+
+
+/* start faq's */
+.faqs{
+    padding-block: 40px;
+    background-color: #f2f1e5;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.wrapper {
+  width: 75%;
+  margin: auto;
+}
+
+.wrapper > p,
+.wrapper > h1 {
+  margin: 1.5rem 0;
+  text-align: center;
+  font-weight: 500;
+  
+}
+
+.accordion {
+  background-color: #f2f1e5;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 10px ;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+.faq button {
+  color: black;
+  font-size: 16px;
+  background-color: #ffffffa1;
+}
+.accordion i {
+  font-size: 1.1rem;
+}
+
+.pannel {
+  padding: 0 2rem 1.5rem 2rem;
+  background-color: white;
+  overflow: hidden;
+  display: none;
+  
+}
+.pannel p {
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.3;
+  color:#667280;
+  font-size: 14px;
+}
+
+.faq {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+  color:black;
+  padding-block: 12px;
+  background-color: white;
+}
+.faq.active {
+  border: none;
+  display: block;
+}
+.faq h1{
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+/* end faq  */
+
+/* start footer  */
+
+footer{
+    padding: 10px;
+    background-color: #f7f6f5;
+}
+footer ul li{
+    margin-right: 20px;
+}
+
+/* end footer  */
+
+
+
+/* start second page  */
+
+.landing{
+    padding-block: 40px;
+    background-color: #f2f1e5;
+}
+.landing h1{
+    margin-bottom: 35px;
+    color: #d2161e;
+}
+.landing p{
+    color: #667280;
+}
+
+/* start getstart  */
+
+.getstart{
+    padding-block: 40px;
+    background-color: #f2f1e5;
+}
+.getstart p{
+    color: #667280;
+}
+.getstart button{
+    background-color: #d2161e;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding-block: 10px;
+    padding-inline: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* end getstart  */
+
+/* start sellerpricing */
+
+.sellerpricing{
+    padding-block: 40px;
+    background-color: #f2f1e5;
+}
+.sellerpricing p{
+    margin-bottom: 60px;
+}
+.sellerpricing .box{
+    background-color: white;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-bottom: 25px;
+}
+.header-box{
+    background-color: #d2161e;
+    color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-block: 15px;
+}
+.sellerpricing .box h1{
+    padding-block: 20px;
+}
+.sellerpricing button{
+    background-color: #d2161e;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding-block: 10px;
+    padding-inline: 30px;
+    margin-top: 30px;
+}
+/* end sellerpricing */
+
+/* start whyus  */
+
+.whyus{
+    padding-block: 40px;
+    background-color: #f2f1e5;
+}
+.whyus .box{
+    margin-bottom: 25px;
+}
+.whyus .box svg{
+    color: #d2161e;
+    font-size: 20px;
+}
+
+/* end whyus  */
+
+/* start numbers  */
+
+.numbers{
+    padding-block: 40px;
+    background-color: #d2161e;
+    color: white;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.numbers h1{
+    font-size: 56px;
+    font-weight: 800;
+}
+.numbers .box{
+    max-width: -webkit-fill-available;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+@media(max-width:665px){
+    .numbers {
+        flex-direction: column;
+    }
+}
+.copyright{
+    background-color: #d2161e;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+/* end numbers  */
+
+/* end second page  */
+
+
+.payment{
+    padding-top: 20px;
+    background-color: #f2f1e5;
+}
+.payment .box{
+    margin-bottom: 20px;
+    background-color: #004dff24;
+    border-radius: 12px;
+    padding: 5px 5px;
+    border: 1px solid black;
+}
+.payment .box img{
+    border-radius: 12px;
+}
+.payment .btn-holder button{
+    background-color: #d2161e;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 20px;
+    border: none;
+    min-width: 108px;
+}
+.payment .whats-btn{
+    width: 100%;
+}
+.payment .btn-whats button{
+    background-color: #52b035;
+    color: white;
+    width: 50%;
+    border-radius: 12px;
+    padding: 10px 20px;
+    border: none;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .mySwiper .swiper-slide .box{
+    height: 290px;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  .rounded img{
+    border-radius: 12px;
+  }
+  .mySwiper2 .swiper-slide .box{
+    width: fit-content;
+  }
+  .mySwiper2 .swiper-slide img{
+    width: 50%;
+  }
+  .whatsapp-logo{
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    z-index: 111;
+    
+  }
+  .whatsapp-logo img{
+    border-radius: 50%;
+  }
+  button{
+    color: #ffffff;
+    background-color:  #d2161e;
+  }
